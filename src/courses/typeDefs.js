@@ -1,11 +1,11 @@
 export const studentsTypeDef = `
 type Student {
     code: Int!
-    name: String!
+    username: String!
     password: String!
 }
 input StudentInput {
-    name: String!
+    username: String!
     password: String!
 }`;
 
